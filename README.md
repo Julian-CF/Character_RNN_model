@@ -24,14 +24,14 @@ The Adam and SGD optimizer and learning rates of 0.0001, 0.005, 0.001, 0.005 and
 It is worth noting that the vanilla and GRU have also been added to the code but the best model implementation (LSTM) is found at the end of the code.  
 
 ## Results
-A code for the training and validation loss plots of and the validation, test and training accuracies can also be found.
+A code for the training and validation loss plots of and the validation, test and training accuracies with the respective results can also be found.
 
 ## Sentence Generation
-Finally, 5 sentence generation have been tried. We used the following beginning of sentences to generate its sentence completion using our best model:
+Finally, 5 sentence generation have been tried. I used the following beginning of sentences to generate its sentence completion using our best model:
 - ”Your father ”
 - ”Hello, this is the end of books and art ”
 - ”I am lacking inspiration”
 - ”I believe that”
 - ”Welcome to”
 
-The process was stopping the sentence when the character output was a dot, a question mark, an exclamation mark or when the length of the sentence was becoming larger than 128 since it was our sequence length inputused for training.  The latter ensures a hard stop when the model is going to generate infinitely a certain pattern of output.
+The generated sentences can be found in the code. The process was stopping the sentence when the character output was a dot, a question mark, an exclamation mark or when the length of the sentence was becoming larger than 128 since it was our sequence length inputused for training.  The latter ensures a hard stop when the model is going to generate infinitely a certain pattern of output. 
