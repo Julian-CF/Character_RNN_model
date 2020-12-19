@@ -34,4 +34,4 @@ Finally, 5 sentence generation have been tried. I used the following beginning o
 - ”I believe that”
 - ”Welcome to”
 
-The generated sentences can be found in the code. The process was stopping the sentence when the character output was a dot, a question mark, an exclamation mark or when the length of the sentence was becoming larger than 128 since it was our sequence length inputused for training.  The latter ensures a hard stop when the model is going to generate infinitely a certain pattern of output. 
+The generated sentences can be found in the code. The process was stopping the sentence when the character output was a dot, a question mark, an exclamation mark or when the length of the sentence was becoming larger than 128 since it was our sequence length input used for training.  The latter ensures a hard stop when the model is going to generate infinitely a certain pattern of output. 
